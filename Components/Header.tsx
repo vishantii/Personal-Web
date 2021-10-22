@@ -39,9 +39,9 @@ const Header = () => {
           />
         </Flex>
         <Flex alignSelf="center">
-          <IconButton icon={<FaLinkedin />} isRound="true" onClick={() => window.open('https://www.linkedin.com/in/mohamad-farhan-7469bb1b3/')}></IconButton>
-          <IconButton ml={2} icon={<FaInstagram />} isRound="true" onClick={() => window.open('https://www.instagram.com/farhannmf_/')}></IconButton>
-          <IconButton ml={2} icon={<FaGithub />} isRound="true" onClick={() => window.open('https://github.com/kejauhan')}></IconButton>
+          <IconButton aria-label="next2" icon={<FaLinkedin />} onClick={() => window.open('https://www.linkedin.com/in/mohamad-farhan-7469bb1b3/')}></IconButton>
+          <IconButton aria-label="next2" ml={2} icon={<FaInstagram />} onClick={() => window.open('https://www.instagram.com/farhannmf_/')}></IconButton>
+          <IconButton aria-label="next2" ml={2} icon={<FaGithub />} onClick={() => window.open('https://github.com/kejauhan')}></IconButton>
         </Flex>
       </Stack>
     </VStack>
