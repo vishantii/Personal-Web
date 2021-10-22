@@ -5,11 +5,12 @@ import { Link } from '@chakra-ui/layout';
 
 const DrawerMenu = () => {
   const { isOpen, onOpen, onClose } = useDisclosure();
-  const btnRef = React.useRef();
+  const inputField = React.useRef() as React.MutableRefObject<HTMLInputElement>;
+
   return (
     <>
-      <IconButton ml={2} icon={<HiMenu />} ref={btnRef} onClick={onOpen} />
-      <Drawer isOpen={isOpen} placement="right" onClose={onClose} finalFocusRef={btnRef}>
+      <IconButton ml={2} icon={<HiMenu />} ref={inputField} onClick={onOpen} />
+      <Drawer isOpen={isOpen} placement="right" onClose={onClose} finalFocusRef={inputField}>
         <DrawerOverlay>
           <DrawerContent>
             <DrawerHeader>Menu</DrawerHeader>

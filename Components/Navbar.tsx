@@ -7,6 +7,7 @@ import Drawer from './Drawer';
 const Navbar = () => {
   const { colorMode, toggleColorMode } = useColorMode();
   const isDark = colorMode === 'dark';
+
   return (
     <>
       <VStack as="header" boxShadow="0px 4px 14px 1px rgba(0, 0, 0, 0.15);" borderRadius="12px">
