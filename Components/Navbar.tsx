@@ -15,7 +15,7 @@ const Navbar = () => {
             Kejauhan
           </Heading>
           <Spacer></Spacer>
-          <IconButton ml={8} icon={isDark ? <FaSun /> : <FaMoon />} isRound="true" onClick={toggleColorMode}></IconButton>
+          <IconButton aria-label="next" ml={8} icon={isDark ? <FaSun /> : <FaMoon />} onClick={toggleColorMode}></IconButton>
         </Flex>
       </VStack>
     </>
