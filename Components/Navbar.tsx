@@ -2,7 +2,6 @@ import { IconButton } from '@chakra-ui/button';
 import { useColorMode } from '@chakra-ui/color-mode';
 import { Flex, VStack, Heading, Spacer } from '@chakra-ui/layout';
 import { FaSun, FaMoon } from 'react-icons/fa';
-import Drawer from './Drawer';
 
 const Navbar = () => {
   const { colorMode, toggleColorMode } = useColorMode();
@@ -17,7 +16,6 @@ const Navbar = () => {
           </Heading>
           <Spacer></Spacer>
           <IconButton ml={8} icon={isDark ? <FaSun /> : <FaMoon />} isRound="true" onClick={toggleColorMode}></IconButton>
-          <Drawer />
         </Flex>
       </VStack>
     </>
