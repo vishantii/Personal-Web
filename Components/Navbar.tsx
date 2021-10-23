@@ -27,7 +27,7 @@ const Navbar = () => {
               <IconButton aria-label="next" ml={1} icon={<FaHome />}></IconButton>
             </a>
           </Link>
-          <Link href="/projects">
+          <Link href="/">
             <a>
               <IconButton aria-label="next" ml={1} icon={<FaRocket />}></IconButton>
             </a>

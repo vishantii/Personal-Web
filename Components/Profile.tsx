@@ -22,7 +22,7 @@ function Profile() {
           </Text>{' '}
         </Box>{' '}
         <Heading alignSelf="center" fontWeight="bold" fontSize="3xl" bgGradient="linear(to-r, cyan.400, pink.500, pink.600)" bgClip="text">
-          Here&apos;s Some Projects{' '}
+          Here&apos;s Some Featured Projects{' '}
         </Heading>
         <SimpleGrid alignSelf="center" columns={[1, null, 4]} spacing={3}>
           <Flex direction={['row', 'column']} mt={8}>

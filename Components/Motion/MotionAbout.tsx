@@ -14,7 +14,6 @@ export const MainAbout = ({ children }: MainProps) => (
     initial="before"
     animate="after"
     width="100%"
-    maxWidth="48rem"
     pt="4rem"
     px={2}
     mt={8}
