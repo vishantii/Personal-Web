@@ -10,6 +10,7 @@ import { IconButton } from '@chakra-ui/button';
 import { FaAndroid, FaAngular } from 'react-icons/fa';
 import { SiReact, SiChakraui, SiNextdotjs, SiTypescript } from 'react-icons/si';
 import { DiJavascript1 } from 'react-icons/di';
+import AppHeader from './AppHeader';
 
 const Content = () => {
   const [isNotSmallerScreen] = useMediaQuery('(min-width:600px)');
@@ -18,6 +19,7 @@ const Content = () => {
   const isDark = colorMode === 'dark';
   return (
     <>
+      <AppHeader title="About Me" pageDesc="Welcome" />
       <Navbar />
       <MainAbout>
         <Stack spacing={isNotSmallerScreen ? 4 : 3} as="main" align="center">
