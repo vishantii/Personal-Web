@@ -18,7 +18,7 @@ function Profile() {
         <Box alignSelf="center">
           {' '}
           <Text textAlign="center" fontWeight="bold" fontSize="2xl">
-            A Developer, specialised in Web App development.{' '}
+            A Developer, specialized in Web App development.{' '}
           </Text>{' '}
         </Box>{' '}
         <Heading textAlign="center" alignSelf="center" fontWeight="bold" fontSize="3xl" bgGradient="linear(to-r, cyan.400, pink.500, pink.600)" bgClip="text">
