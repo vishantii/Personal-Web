@@ -18,7 +18,7 @@ const Header = () => {
       <Main>
         <Stack as="main" align="center">
           <Flex direction={["column", "row"]}>
-            <Box mt={isNotSmallerScreen ? "0" : 16} align="flex-start">
+            <Box mt={isNotSmallerScreen ? "0" : 16}>
               <Text fontSize="4xl" fontWeight="semibold">
                 Hi, I am
               </Text>
